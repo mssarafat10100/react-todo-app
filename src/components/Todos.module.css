@@ -1,0 +1,17 @@
+:root {
+    --backgroundbigColor: #041431;
+    --backgroundDivColor: #122349;
+    --backgroundsmallColor: #566989;
+    --texttodoColor: #00CBC4;
+    --textColor: #FFFFFF; 
+  }
+
+.todos {
+    width: 500px;
+    background-color: var(--backgroundDivColor);
+    color: var(--texttodoColor);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    overflow-x: auto;
+    height: 60vh;
+}
